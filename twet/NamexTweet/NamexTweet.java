@@ -8,8 +8,8 @@ import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken;
 
 public class NamexTweet {
-    private final static String CONSUMER_KEY = "GX7Jn6zNm11J6QLduxTNQvCMB";
-    private final static String CONSUMER_KEY_SECRET = "YU6phdiw6IDXCfTBGsJEUghbuELYv1DCk4gZEmxzldu0qnsIzc";
+    private final static String CONSUMER_KEY = "oykCI45coaH3qtGiVqTNKwO8a";
+    private final static String CONSUMER_KEY_SECRET = "4i4hRqZfymbBVZ2DQ9OwxRT8W3YsfSZEbWfm2ZsWZNrjxgePp9";
 
     public void start() throws TwitterException, IOException {
 
@@ -25,7 +25,7 @@ public class NamexTweet {
 	twitter.setOAuthAccessToken(oathAccessToken);
 	// end of difference
 
-	twitter.updateStatus("Hi, im updating status again from Namex Tweet for Demo tugas webservice jeatreya");
+	twitter.updateStatus("Hi, im updating status again from Namex Tweet for Demo tugas webservice FMP");
 
 	System.out.println("\nMy Timeline:");
 
