@@ -8,8 +8,8 @@ import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken;
 
 public class NamexTweet {
-    private final static String CONSUMER_KEY = "oykCI45coaH3qtGiVqTNKwO8a";
-    private final static String CONSUMER_KEY_SECRET = "4i4hRqZfymbBVZ2DQ9OwxRT8W3YsfSZEbWfm2ZsWZNrjxgePp9";
+    private final static String CONSUMER_KEY = "oy";
+    private final static String CONSUMER_KEY_SECRET = "4";
 
     public void start() throws TwitterException, IOException {
 
